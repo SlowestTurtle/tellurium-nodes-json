@@ -9,9 +9,7 @@ This list can be consumed in your application so you'll always have an up-to-dat
 Adding a New Node
 If you would like to add your public node to the list, please submit a Pull Request to do so. To avoid any possibility of displaying preference for one public node over another, please ensure that any additions are submitted in alphabetical order by the name property.
 
-If you are unfamiliar with github, please reach contact us at discord or by email.
-Email: admin@tellurium.network
-Discord: https://discord.gg/VaXYX6z
+
 # Creating your own public node
 
 If you would like to create your own public node, here are the steps.
@@ -36,4 +34,7 @@ Note that Tellurium uses 4 decimal places to determine its' atomic units.  The d
 *What Do We Do Next?
 
 Get your node listed on Github so that people know you exist!
+If you are unfamiliar with github, please contact us at discord or by email.
+Email: admin@tellurium.network
+Discord: https://discord.gg/VaXYX6z
 
