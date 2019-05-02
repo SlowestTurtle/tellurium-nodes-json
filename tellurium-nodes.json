@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "name": "Tellurium Public Node powered By Morpheus",
+      "url": "104.243.33.176",
+      "port": 32302,
+      "ssl": false
+    },    
+    {
+      "name": "Tellurium Public Node powered By Command",
+      "url": "node.tellurium.m00n.top",
+      "port": 32302,
+      "ssl": false
+    },    
+    {
+      "name": "Tellurium Public Node powered By cryptomaxsun",
+      "url": "185.154.15.59",
+      "port": 32302,
+      "ssl": false
+    },    
+    {
+      "name": "Tellurium Public Node powered By AlpHa",
+      "url": "tlrm.turbomine.co",
+      "port": 32302,
+      "ssl": false
+    }
+  ]
+}
