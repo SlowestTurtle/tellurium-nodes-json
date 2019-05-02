@@ -23,11 +23,15 @@ If you would like to create your own public node, here are the steps.
 *Let’s Get Started
 
 1. Connect to your node and install Tellurium. 
-You can follow the compile guide on https://github.com/telluriumcoin/tellurium/releases/
+Dowload a pre-compiled deamon for windows or linux on https://github.com/telluriumcoin/tellurium/releases/
+Or you can follow the compile guide on https://github.com/telluriumcoin/tellurium/
+Create a folder and extract the compressed files into that folder.
 
 2. Decide on a fee, and launch the daemon
-Let’s say I want to charge .0005 TLRM per transaction sent, I can launch my daemon like this:
+Let’s say I want to charge .0005 TLRM per transaction sent, I can launch my daemon like this for linux:
 ./Telluriumd --fee-amount 500 --fee-address TELMfh3HwLaNBUMPpXWudjbciGYLeVVtYXdkpcdAye1GEvYkg2MJCSmPC76NAwf8dP1brBJCL9KDeENN8UAT45Vj5hbPgSKxdJ
+For windows:
+Telluriumd.exe --fee-amount 500 --fee-address TELMfh3HwLaNBUMPpXWudjbciGYLeVVtYXdkpcdAye1GEvYkg2MJCSmPC76NAwf8dP1brBJCL9KDeENN8UAT45Vj5hbPgSKxdJ
 
 Note that Tellurium uses 4 decimal places to determine its' atomic units.  The decimal is not used by the Daemon.  It only understands units.  So a fee of .0001 equates to 100 atomic units.
 
