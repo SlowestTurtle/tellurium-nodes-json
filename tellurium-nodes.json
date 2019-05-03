@@ -17,6 +17,12 @@
       "url": "185.154.15.59",
       "port": 32302,
       "ssl": false
+    },
+    {
+      "name": "Tellurium Public Node powered By Stroppy",
+      "url": "stroppy.myddns.me",
+      "port": 32302,
+      "ssl": false
     },    
     {
       "name": "Tellurium Public Node powered By AlpHa",
