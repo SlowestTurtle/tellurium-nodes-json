@@ -28,12 +28,20 @@ Or you can follow the compile guide on https://github.com/telluriumcoin/telluriu
 Create a folder and extract the compressed files into that folder.
 
 2. Decide on a fee, and launch the daemon
-Let’s say I want to charge .0005 TLRM per transaction sent, I can launch my daemon like this for linux:
-./Telluriumd --fee-amount 500 --fee-address TELMfh3HwLaNBUMPpXWudjbciGYLeVVtYXdkpcdAye1GEvYkg2MJCSmPC76NAwf8dP1brBJCL9KDeENN8UAT45Vj5hbPgSKxdJ
-For windows:
-Telluriumd.exe --fee-amount 500 --fee-address TELMfh3HwLaNBUMPpXWudjbciGYLeVVtYXdkpcdAye1GEvYkg2MJCSmPC76NAwf8dP1brBJCL9KDeENN8UAT45Vj5hbPgSKxdJ
+Let’s say I want to charge 500.0000 TLRM per transaction sent, I can launch my daemon like this for linux:
 
-Note that Tellurium uses 4 decimal places to determine its' atomic units.  The decimal is not used by the Daemon.  It only understands units.  So a fee of .0001 equates to 100 atomic units.
+./Telluriumd --p2p-bind-ip 0.0.0.0 --rpc-bind-ip 0.0.0.0 --fee-amount 5000000 --fee-address TELMfh3HwLaNBUMPpXWudjbciGYLeVVtYXdkpcdAye1GEvYkg2MJCSmPC76NAwf8dP1brBJCL9KDeENN8UAT45Vj5hbPgSKxdJ
+
+For windows:
+Telluriumd.exe --p2p-bind-ip 0.0.0.0 --rpc-bind-ip 0.0.0.0 --fee-amount 5000000 --fee-address TELMfh3HwLaNBUMPpXWudjbciGYLeVVtYXdkpcdAye1GEvYkg2MJCSmPC76NAwf8dP1brBJCL9KDeENN8UAT45Vj5hbPgSKxdJ
+
+3. !! IMPORTANT !!
+Release 2.0.1.0 New Updates
+This version release allow anti-flood tools and features, please type HELP in node for further information or contact our team.
+
+./Telluriumd --p2p-bind-ip 0.0.0.0 --rpc-bind-ip 0.0.0.0 --p2p-tx-threshold-count 10 --fee-amount 5000000 --fee-address TELMfh3HwLaNBUMPpXWudjbciGYLeVVtYXdkpcdAye1GEvYkg2MJCSmPC76NAwf8dP1brBJCL9KDeENN8UAT45Vj5hbPgSKxdJ
+
+Note that Tellurium uses 4 decimal places to determine its' atomic units.  The decimal is not used by the Daemon.  It only understands units.  So a fee of 500.0000 TLRM equates to 5000000 atomic units.
 
 *What Do We Do Next?
 
