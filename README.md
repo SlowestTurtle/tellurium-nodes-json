@@ -4,7 +4,7 @@ JSON List of public daemons for Tellurium
 The json file in this repo contains the a list of known public nodes in which users can connect to sync their wallets.
 Some of these may contain fees.
 
-This list can be consumed in your application so you'll always have an up-to-date list of public nodes. To consume the list, use the following URL: https://github.com/TelluriumCoin/tellurium-nodes-json/master/tellurium-nodes-json
+This list can be consumed in your application so you'll always have an up-to-date list of public nodes. To consume the list, use the following URL: https://github.com/TelluriumCoin/tellurium-nodes-json/blob/master/tellurium-nodes.json
 
 Adding a New Node
 If you would like to add your public node to the list, please submit a Pull Request to do so. To avoid any possibility of displaying preference for one public node over another, please ensure that any additions are submitted in alphabetical order by the name property.
