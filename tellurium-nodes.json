@@ -1,8 +1,8 @@
 {
   "nodes": [
     {
-      "name": "Tellurium Public Node powered By You",
-      "url": "-",
+      "name": "Tellurium Public Node powered By TheSlowestTurtle",
+      "url": "node-europe.ddns.net",
       "port": 32322,
       "ssl": false
     },    
